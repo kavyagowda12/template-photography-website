@@ -1,0 +1,139 @@
+.header{
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    text-align-last: center;
+}
+main{
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.box{
+    display: block;
+    float:none;
+    width: 100%;
+    padding: 6px;
+    padding-left: 12px;
+    fill: black;
+
+}
+img{
+    width: 100%;
+    border-radius:2px ;
+}
+
+main.brush{
+    margin-left: 18px;
+    margin-right: 18px;
+    display:flexbox;
+}
+img.brush{
+    width: 100%;
+    border-radius:5px ;
+}
+
+
+.brush{
+    display:inline-block;
+    float:none;
+    width: 20%;
+    padding: 10px;
+    padding-left: 1px;
+    border-radius: 80px;
+    fill:darkblue;
+
+}
+main.brushh{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flexbox;
+}
+img.brushh{
+    border-radius: 5px;
+    width: 100%;;
+}
+.brushh{
+    display:inline-block;
+    float:none;
+    width: 20%;
+    padding: 10px;
+    padding-left: 12px;
+}
+
+main.bruushhhh{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flexbox;
+}
+img.bruushhhh{
+    border-radius: 5px;
+    width: 100%;;
+}
+.bruushhhh{
+    display:inline-block;
+    float:none;
+    width: 20%;
+    padding: 10px;
+    padding-left: 12px;
+}
+main.bruushhh{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flexbox;
+}
+img.bruushhh{
+    border-radius: 5px;
+    width: 100%;;
+}
+.bruushhh{
+    display:inline-block;
+    float:none;
+    width: 20%;
+    padding: 10px;
+    padding-left: 12px;
+}
+.NAME{
+    text-align: center;
+}
+.a{
+    display: flex;
+    width: 100%;
+    max-width: 12000px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+@media screen and (max-width:800px){
+    .a{
+        flex-direction: column;
+        
+    }
+    .brush{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+    .NAME{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+        
+    }
+    .brushh{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;  
+    }
+    .bruushhh{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+    .bruushhhh{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+
